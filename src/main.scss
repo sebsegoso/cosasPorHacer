@@ -1,0 +1,44 @@
+//colors
+$azul: #003049;
+$rojo: #d62828;
+$naranja : #f77f00;
+$amarillo: #fcbf49;
+$palido: #eae2b7;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 2s;   
+}
+
+body{
+    background-color: $azul;
+    color: $palido;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    button{
+        width: 30%;
+        padding: 15px;
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+}
+
+#Contenido{
+    display: block;
+    width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ddd;
+    opacity: 0;
+    
+
+}
